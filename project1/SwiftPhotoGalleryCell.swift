@@ -6,6 +6,9 @@
 //
 //
 
+import UIKit
+import Foundation
+
 public class SwiftPhotoGalleryCell: UICollectionViewCell, UIScrollViewDelegate {
 
     var image:UIImage? {

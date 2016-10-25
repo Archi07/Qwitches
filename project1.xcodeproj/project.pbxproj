@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41C902841D4E51A300BA5032 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C902831D4E51A300BA5032 /* LoginViewController.m */; };
+		41C902871D4E51AE00BA5032 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C902861D4E51AE00BA5032 /* RegistrationViewController.m */; };
+		41C9028A1D4E521E00BA5032 /* Facilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C902891D4E521E00BA5032 /* Facilities.m */; };
+		41C9028C1D4E524C00BA5032 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C9028B1D4E524C00BA5032 /* libsqlite3.tbd */; };
+		41C9028E1D4E525F00BA5032 /* MyDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 41C9028D1D4E525F00BA5032 /* MyDB.sqlite */; };
+		41C902A21D4E6F6C00BA5032 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C902A11D4E6F6C00BA5032 /* SearchViewController.swift */; };
+		41C902A51D4E6F9400BA5032 /* SwiftPhotoGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C902A31D4E6F9400BA5032 /* SwiftPhotoGallery.swift */; };
+		41C902A61D4E6F9400BA5032 /* SwiftPhotoGalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C902A41D4E6F9400BA5032 /* SwiftPhotoGalleryCell.swift */; };
+		41C902AC1D4E798500BA5032 /* image1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 41C902A91D4E798500BA5032 /* image1.jpeg */; };
+		41C902AD1D4E798500BA5032 /* image2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 41C902AA1D4E798500BA5032 /* image2.jpeg */; };
+		41C902AE1D4E798600BA5032 /* image3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 41C902AB1D4E798500BA5032 /* image3.jpeg */; };
+		526B0C491D4AB51A006C7469 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526B0C481D4AB51A006C7469 /* MenuViewController.swift */; };
 		52B3F4DF1D417107005658DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3F4DE1D417107005658DB /* AppDelegate.swift */; };
 		52B3F4E11D417107005658DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3F4E01D417107005658DB /* ViewController.swift */; };
 		52B3F4E41D417107005658DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B3F4E21D417107005658DB /* Main.storyboard */; };
@@ -14,6 +26,46 @@
 		52B3F4E91D417107005658DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B3F4E71D417107005658DB /* LaunchScreen.storyboard */; };
 		52B3F4F41D417107005658DB /* project1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3F4F31D417107005658DB /* project1Tests.swift */; };
 		52B3F4FF1D417107005658DB /* project1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3F4FE1D417107005658DB /* project1UITests.swift */; };
+		69E16B011D4F25D800249104 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E16B001D4F25D800249104 /* LocationManager.swift */; };
+		69E16B031D4F280700249104 /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E16B021D4F280700249104 /* MapManager.swift */; };
+		69E16B051D4F281400249104 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E16B041D4F281400249104 /* SecondViewController.swift */; };
+		A30A56761D4ECC1B002BBF01 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30A56751D4ECC1B002BBF01 /* ViewController3.swift */; };
+		A30A567E1D4EFEE8002BBF01 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A30A56791D4EFEE8002BBF01 /* 1.jpg */; };
+		A30A567F1D4EFEE8002BBF01 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A30A567A1D4EFEE8002BBF01 /* 2.jpg */; };
+		A30A56801D4EFEE8002BBF01 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A30A567B1D4EFEE8002BBF01 /* 3.jpg */; };
+		A30A56811D4EFEE8002BBF01 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A30A567C1D4EFEE8002BBF01 /* 4.jpg */; };
+		A30A56821D4EFEE8002BBF01 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = A30A567D1D4EFEE8002BBF01 /* 5.png */; };
+		A30A568F1D4F4D1B002BBF01 /* food1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A30A56891D4F4D1B002BBF01 /* food1.jpg */; };
+		A30A56901D4F4D1B002BBF01 /* inside1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A30A568A1D4F4D1B002BBF01 /* inside1.jpg */; };
+		A30A56911D4F4D1B002BBF01 /* Qwiches_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A30A568B1D4F4D1B002BBF01 /* Qwiches_logo.jpg */; };
+		A30A56921D4F4D1B002BBF01 /* qwiches_main.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A30A568C1D4F4D1B002BBF01 /* qwiches_main.jpg */; };
+		A30A56931D4F4D1B002BBF01 /* Qwiches_vertical.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A30A568D1D4F4D1B002BBF01 /* Qwiches_vertical.jpg */; };
+		A30A56941D4F4D1B002BBF01 /* qwiches.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A30A568E1D4F4D1B002BBF01 /* qwiches.jpg */; };
+		A30A56961D4F5064002BBF01 /* ViewControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30A56951D4F5064002BBF01 /* ViewControllerMain.swift */; };
+		A30A56981D4F5189002BBF01 /* round-play-button_318-99173.png.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A30A56971D4F5189002BBF01 /* round-play-button_318-99173.png.jpeg */; };
+		A30A56A21D4F63BC002BBF01 /* about_us_banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A30A56991D4F63BC002BBF01 /* about_us_banner.jpg */; };
+		A30A56A31D4F63BC002BBF01 /* Contact Us orange bar.png in Resources */ = {isa = PBXBuildFile; fileRef = A30A569A1D4F63BC002BBF01 /* Contact Us orange bar.png */; };
+		A30A56A41D4F63BC002BBF01 /* gallery.gif in Resources */ = {isa = PBXBuildFile; fileRef = A30A569B1D4F63BC002BBF01 /* gallery.gif */; };
+		A30A56A51D4F63BC002BBF01 /* inside_foodoffers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A30A569C1D4F63BC002BBF01 /* inside_foodoffers.jpg */; };
+		A30A56A61D4F63BC002BBF01 /* Join+Newsletter+button.png in Resources */ = {isa = PBXBuildFile; fileRef = A30A569D1D4F63BC002BBF01 /* Join+Newsletter+button.png */; };
+		A30A56A71D4F63BC002BBF01 /* logo_myaccount.gif in Resources */ = {isa = PBXBuildFile; fileRef = A30A569E1D4F63BC002BBF01 /* logo_myaccount.gif */; };
+		A30A56A81D4F63BC002BBF01 /* Menu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A30A569F1D4F63BC002BBF01 /* Menu.jpg */; };
+		A30A56A91D4F63BC002BBF01 /* offers.png in Resources */ = {isa = PBXBuildFile; fileRef = A30A56A01D4F63BC002BBF01 /* offers.png */; };
+		A30A56AA1D4F63BC002BBF01 /* order_online_button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A30A56A11D4F63BC002BBF01 /* order_online_button.jpg */; };
+		A30A56AC1D4F73F6002BBF01 /* cartcredit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A30A56AB1D4F73F6002BBF01 /* cartcredit.jpg */; };
+		A328F25B1D4F8C87009F4C0E /* under.png in Resources */ = {isa = PBXBuildFile; fileRef = A328F25A1D4F8C87009F4C0E /* under.png */; };
+		A33F24631D45CF6900C3AEF1 /* store_logo_thumb_995392_qwiches.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A33F24621D45CF6900C3AEF1 /* store_logo_thumb_995392_qwiches.jpg */; };
+		A33F24651D45CF7900C3AEF1 /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = A33F24641D45CF7900C3AEF1 /* unnamed.png */; };
+		F58C4F171D4E955300F73A56 /* DETAILSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58C4F161D4E955300F73A56 /* DETAILSViewController.swift */; };
+		F58C4F191D4E95D100F73A56 /* PAYMENTSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58C4F181D4E95D100F73A56 /* PAYMENTSViewController.swift */; };
+		F9AF50A81D4B055200164562 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AF50A61D4B055200164562 /* ListViewController.swift */; };
+		F9AF50A91D4B055200164562 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9AF50A71D4B055200164562 /* ListViewController.xib */; };
+		F9AF50AC1D4B099A00164562 /* ListViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AF50AA1D4B099A00164562 /* ListViewController2.swift */; };
+		F9AF50AD1D4B099A00164562 /* ListViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9AF50AB1D4B099A00164562 /* ListViewController2.xib */; };
+		F9AF50B01D4B0D8A00164562 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AF50AE1D4B0D8A00164562 /* DetailViewController.swift */; };
+		F9AF50B11D4B0D8A00164562 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9AF50AF1D4B0D8A00164562 /* DetailViewController.xib */; };
+		F9AF50B81D4B150900164562 /* DetailViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AF50B61D4B150900164562 /* DetailViewController2.swift */; };
+		F9AF50B91D4B150900164562 /* DetailViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9AF50B71D4B150900164562 /* DetailViewController2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +86,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41C902811D4E51A200BA5032 /* project1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "project1-Bridging-Header.h"; sourceTree = "<group>"; };
+		41C902821D4E51A300BA5032 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		41C902831D4E51A300BA5032 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		41C902851D4E51AE00BA5032 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		41C902861D4E51AE00BA5032 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		41C902881D4E521E00BA5032 /* Facilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facilities.h; sourceTree = "<group>"; };
+		41C902891D4E521E00BA5032 /* Facilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facilities.m; sourceTree = "<group>"; };
+		41C9028B1D4E524C00BA5032 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		41C9028D1D4E525F00BA5032 /* MyDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyDB.sqlite; sourceTree = "<group>"; };
+		41C902A11D4E6F6C00BA5032 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		41C902A31D4E6F9400BA5032 /* SwiftPhotoGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPhotoGallery.swift; sourceTree = "<group>"; };
+		41C902A41D4E6F9400BA5032 /* SwiftPhotoGalleryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPhotoGalleryCell.swift; sourceTree = "<group>"; };
+		41C902A91D4E798500BA5032 /* image1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpeg; sourceTree = "<group>"; };
+		41C902AA1D4E798500BA5032 /* image2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpeg; sourceTree = "<group>"; };
+		41C902AB1D4E798500BA5032 /* image3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpeg; sourceTree = "<group>"; };
+		526B0C481D4AB51A006C7469 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../MenuViewController.swift; sourceTree = "<group>"; };
 		52B3F4DB1D417107005658DB /* project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B3F4DE1D417107005658DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52B3F4E01D417107005658DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +115,46 @@
 		52B3F4FA1D417107005658DB /* project1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = project1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B3F4FE1D417107005658DB /* project1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project1UITests.swift; sourceTree = "<group>"; };
 		52B3F5001D417107005658DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69E16B001D4F25D800249104 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		69E16B021D4F280700249104 /* MapManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapManager.swift; sourceTree = "<group>"; };
+		69E16B041D4F281400249104 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A30A56751D4ECC1B002BBF01 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		A30A56791D4EFEE8002BBF01 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../1.jpg; sourceTree = "<group>"; };
+		A30A567A1D4EFEE8002BBF01 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../2.jpg; sourceTree = "<group>"; };
+		A30A567B1D4EFEE8002BBF01 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = ../../3.jpg; sourceTree = "<group>"; };
+		A30A567C1D4EFEE8002BBF01 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = ../../4.jpg; sourceTree = "<group>"; };
+		A30A567D1D4EFEE8002BBF01 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = ../../5.png; sourceTree = "<group>"; };
+		A30A56891D4F4D1B002BBF01 /* food1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = food1.jpg; path = ../../../../Downloads/food1.jpg; sourceTree = "<group>"; };
+		A30A568A1D4F4D1B002BBF01 /* inside1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = inside1.jpg; path = ../../../../Downloads/inside1.jpg; sourceTree = "<group>"; };
+		A30A568B1D4F4D1B002BBF01 /* Qwiches_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Qwiches_logo.jpg; path = ../../../../Downloads/Qwiches_logo.jpg; sourceTree = "<group>"; };
+		A30A568C1D4F4D1B002BBF01 /* qwiches_main.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = qwiches_main.jpg; path = ../../../../Downloads/qwiches_main.jpg; sourceTree = "<group>"; };
+		A30A568D1D4F4D1B002BBF01 /* Qwiches_vertical.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Qwiches_vertical.jpg; path = ../../../../Downloads/Qwiches_vertical.jpg; sourceTree = "<group>"; };
+		A30A568E1D4F4D1B002BBF01 /* qwiches.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = qwiches.jpg; path = ../../../../Downloads/qwiches.jpg; sourceTree = "<group>"; };
+		A30A56951D4F5064002BBF01 /* ViewControllerMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMain.swift; sourceTree = "<group>"; };
+		A30A56971D4F5189002BBF01 /* round-play-button_318-99173.png.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "round-play-button_318-99173.png.jpeg"; path = "../../../../Downloads/round-play-button_318-99173.png.jpeg"; sourceTree = "<group>"; };
+		A30A56991D4F63BC002BBF01 /* about_us_banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = about_us_banner.jpg; path = ../../../../Downloads/about_us_banner.jpg; sourceTree = "<group>"; };
+		A30A569A1D4F63BC002BBF01 /* Contact Us orange bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Contact Us orange bar.png"; path = "../../../../Downloads/Contact Us orange bar.png"; sourceTree = "<group>"; };
+		A30A569B1D4F63BC002BBF01 /* gallery.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = gallery.gif; path = ../../../../Downloads/gallery.gif; sourceTree = "<group>"; };
+		A30A569C1D4F63BC002BBF01 /* inside_foodoffers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = inside_foodoffers.jpg; path = ../../../../Downloads/inside_foodoffers.jpg; sourceTree = "<group>"; };
+		A30A569D1D4F63BC002BBF01 /* Join+Newsletter+button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Join+Newsletter+button.png"; path = "../../../../Downloads/Join+Newsletter+button.png"; sourceTree = "<group>"; };
+		A30A569E1D4F63BC002BBF01 /* logo_myaccount.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = logo_myaccount.gif; path = ../../../../Downloads/logo_myaccount.gif; sourceTree = "<group>"; };
+		A30A569F1D4F63BC002BBF01 /* Menu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Menu.jpg; path = ../../../../Downloads/Menu.jpg; sourceTree = "<group>"; };
+		A30A56A01D4F63BC002BBF01 /* offers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = offers.png; path = ../../../../Downloads/offers.png; sourceTree = "<group>"; };
+		A30A56A11D4F63BC002BBF01 /* order_online_button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = order_online_button.jpg; path = ../../../../Downloads/order_online_button.jpg; sourceTree = "<group>"; };
+		A30A56AB1D4F73F6002BBF01 /* cartcredit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cartcredit.jpg; path = ../../../../Downloads/cartcredit.jpg; sourceTree = "<group>"; };
+		A328F25A1D4F8C87009F4C0E /* under.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = under.png; path = ../../../../Downloads/under.png; sourceTree = "<group>"; };
+		A33F24621D45CF6900C3AEF1 /* store_logo_thumb_995392_qwiches.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = store_logo_thumb_995392_qwiches.jpg; path = ../../store_logo_thumb_995392_qwiches.jpg; sourceTree = "<group>"; };
+		A33F24641D45CF7900C3AEF1 /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unnamed.png; path = ../../unnamed.png; sourceTree = "<group>"; };
+		F58C4F161D4E955300F73A56 /* DETAILSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DETAILSViewController.swift; sourceTree = "<group>"; };
+		F58C4F181D4E95D100F73A56 /* PAYMENTSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PAYMENTSViewController.swift; sourceTree = "<group>"; };
+		F9AF50A61D4B055200164562 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		F9AF50A71D4B055200164562 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		F9AF50AA1D4B099A00164562 /* ListViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController2.swift; sourceTree = "<group>"; };
+		F9AF50AB1D4B099A00164562 /* ListViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController2.xib; sourceTree = "<group>"; };
+		F9AF50AE1D4B0D8A00164562 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F9AF50AF1D4B0D8A00164562 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		F9AF50B61D4B150900164562 /* DetailViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController2.swift; path = ../DetailViewController2.swift; sourceTree = "<group>"; };
+		F9AF50B71D4B150900164562 /* DetailViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailViewController2.xib; path = ../DetailViewController2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C9028C1D4E524C00BA5032 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +183,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41C9027F1D4E50EA00BA5032 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				41C9028D1D4E525F00BA5032 /* MyDB.sqlite */,
+				41C902881D4E521E00BA5032 /* Facilities.h */,
+				41C902891D4E521E00BA5032 /* Facilities.m */,
+				41C902821D4E51A300BA5032 /* LoginViewController.h */,
+				41C902831D4E51A300BA5032 /* LoginViewController.m */,
+				41C902851D4E51AE00BA5032 /* RegistrationViewController.h */,
+				41C902861D4E51AE00BA5032 /* RegistrationViewController.m */,
+				41C902811D4E51A200BA5032 /* project1-Bridging-Header.h */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
 		52B3F4D21D417107005658DB = {
 			isa = PBXGroup;
 			children = (
+				41C9028B1D4E524C00BA5032 /* libsqlite3.tbd */,
 				52B3F4DD1D417107005658DB /* project1 */,
 				52B3F4F21D417107005658DB /* project1Tests */,
 				52B3F4FD1D417107005658DB /* project1UITests */,
@@ -97,12 +222,60 @@
 		52B3F4DD1D417107005658DB /* project1 */ = {
 			isa = PBXGroup;
 			children = (
+				A328F25A1D4F8C87009F4C0E /* under.png */,
+				A30A56AB1D4F73F6002BBF01 /* cartcredit.jpg */,
+				A30A56991D4F63BC002BBF01 /* about_us_banner.jpg */,
+				A30A569A1D4F63BC002BBF01 /* Contact Us orange bar.png */,
+				A30A569B1D4F63BC002BBF01 /* gallery.gif */,
+				A30A569C1D4F63BC002BBF01 /* inside_foodoffers.jpg */,
+				A30A569D1D4F63BC002BBF01 /* Join+Newsletter+button.png */,
+				A30A569E1D4F63BC002BBF01 /* logo_myaccount.gif */,
+				A30A569F1D4F63BC002BBF01 /* Menu.jpg */,
+				A30A56A01D4F63BC002BBF01 /* offers.png */,
+				A30A56A11D4F63BC002BBF01 /* order_online_button.jpg */,
+				A30A56971D4F5189002BBF01 /* round-play-button_318-99173.png.jpeg */,
+				A30A56891D4F4D1B002BBF01 /* food1.jpg */,
+				A30A568A1D4F4D1B002BBF01 /* inside1.jpg */,
+				A30A568B1D4F4D1B002BBF01 /* Qwiches_logo.jpg */,
+				A30A568C1D4F4D1B002BBF01 /* qwiches_main.jpg */,
+				A30A568D1D4F4D1B002BBF01 /* Qwiches_vertical.jpg */,
+				A30A568E1D4F4D1B002BBF01 /* qwiches.jpg */,
+				A30A56791D4EFEE8002BBF01 /* 1.jpg */,
+				A30A567A1D4EFEE8002BBF01 /* 2.jpg */,
+				A30A567B1D4EFEE8002BBF01 /* 3.jpg */,
+				A30A567C1D4EFEE8002BBF01 /* 4.jpg */,
+				A30A567D1D4EFEE8002BBF01 /* 5.png */,
+				41C902A91D4E798500BA5032 /* image1.jpeg */,
+				41C902AA1D4E798500BA5032 /* image2.jpeg */,
+				41C902AB1D4E798500BA5032 /* image3.jpeg */,
+				41C902A31D4E6F9400BA5032 /* SwiftPhotoGallery.swift */,
+				41C902A41D4E6F9400BA5032 /* SwiftPhotoGalleryCell.swift */,
+				41C902A11D4E6F6C00BA5032 /* SearchViewController.swift */,
+				526B0C481D4AB51A006C7469 /* MenuViewController.swift */,
+				F9AF50B61D4B150900164562 /* DetailViewController2.swift */,
+				F9AF50B71D4B150900164562 /* DetailViewController2.xib */,
+				F9AF50AA1D4B099A00164562 /* ListViewController2.swift */,
+				F9AF50AB1D4B099A00164562 /* ListViewController2.xib */,
 				52B3F4DE1D417107005658DB /* AppDelegate.swift */,
 				52B3F4E01D417107005658DB /* ViewController.swift */,
+				69E16B021D4F280700249104 /* MapManager.swift */,
+				69E16B001D4F25D800249104 /* LocationManager.swift */,
+				69E16B041D4F281400249104 /* SecondViewController.swift */,
 				52B3F4E21D417107005658DB /* Main.storyboard */,
+				F9AF50AE1D4B0D8A00164562 /* DetailViewController.swift */,
+				F9AF50AF1D4B0D8A00164562 /* DetailViewController.xib */,
+				F58C4F181D4E95D100F73A56 /* PAYMENTSViewController.swift */,
+				F9AF50A61D4B055200164562 /* ListViewController.swift */,
+				F58C4F161D4E955300F73A56 /* DETAILSViewController.swift */,
+				F9AF50A71D4B055200164562 /* ListViewController.xib */,
+				A33F24641D45CF7900C3AEF1 /* unnamed.png */,
+				A33F24621D45CF6900C3AEF1 /* store_logo_thumb_995392_qwiches.jpg */,
 				52B3F4E51D417107005658DB /* Assets.xcassets */,
 				52B3F4E71D417107005658DB /* LaunchScreen.storyboard */,
 				52B3F4EA1D417107005658DB /* Info.plist */,
+				41C9027F1D4E50EA00BA5032 /* login */,
+				A30A56751D4ECC1B002BBF01 /* ViewController3.swift */,
+				A30A56951D4F5064002BBF01 /* ViewControllerMain.swift */,
 			);
 			path = project1;
 			sourceTree = "<group>";
@@ -193,7 +366,7 @@
 				TargetAttributes = {
 					52B3F4DA1D417107005658DB = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 65659FZ94E;
+						DevelopmentTeam = Z4VGEJ3YH8;
 					};
 					52B3F4EE1D417107005658DB = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -232,9 +405,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A328F25B1D4F8C87009F4C0E /* under.png in Resources */,
+				F9AF50AD1D4B099A00164562 /* ListViewController2.xib in Resources */,
+				41C902AE1D4E798600BA5032 /* image3.jpeg in Resources */,
+				A30A56A71D4F63BC002BBF01 /* logo_myaccount.gif in Resources */,
+				41C9028E1D4E525F00BA5032 /* MyDB.sqlite in Resources */,
 				52B3F4E91D417107005658DB /* LaunchScreen.storyboard in Resources */,
+				A30A56A31D4F63BC002BBF01 /* Contact Us orange bar.png in Resources */,
+				A33F24631D45CF6900C3AEF1 /* store_logo_thumb_995392_qwiches.jpg in Resources */,
+				A30A56A51D4F63BC002BBF01 /* inside_foodoffers.jpg in Resources */,
+				A30A56AC1D4F73F6002BBF01 /* cartcredit.jpg in Resources */,
+				A30A56981D4F5189002BBF01 /* round-play-button_318-99173.png.jpeg in Resources */,
+				F9AF50B11D4B0D8A00164562 /* DetailViewController.xib in Resources */,
+				A30A56A41D4F63BC002BBF01 /* gallery.gif in Resources */,
+				F9AF50A91D4B055200164562 /* ListViewController.xib in Resources */,
+				A30A56A21D4F63BC002BBF01 /* about_us_banner.jpg in Resources */,
+				A30A56941D4F4D1B002BBF01 /* qwiches.jpg in Resources */,
+				A30A56811D4EFEE8002BBF01 /* 4.jpg in Resources */,
+				A30A56801D4EFEE8002BBF01 /* 3.jpg in Resources */,
+				A30A56A81D4F63BC002BBF01 /* Menu.jpg in Resources */,
+				A30A56A91D4F63BC002BBF01 /* offers.png in Resources */,
+				F9AF50B91D4B150900164562 /* DetailViewController2.xib in Resources */,
+				41C902AC1D4E798500BA5032 /* image1.jpeg in Resources */,
+				41C902AD1D4E798500BA5032 /* image2.jpeg in Resources */,
 				52B3F4E61D417107005658DB /* Assets.xcassets in Resources */,
+				A30A568F1D4F4D1B002BBF01 /* food1.jpg in Resources */,
+				A33F24651D45CF7900C3AEF1 /* unnamed.png in Resources */,
+				A30A567F1D4EFEE8002BBF01 /* 2.jpg in Resources */,
+				A30A56821D4EFEE8002BBF01 /* 5.png in Resources */,
+				A30A56901D4F4D1B002BBF01 /* inside1.jpg in Resources */,
+				A30A56931D4F4D1B002BBF01 /* Qwiches_vertical.jpg in Resources */,
 				52B3F4E41D417107005658DB /* Main.storyboard in Resources */,
+				A30A56A61D4F63BC002BBF01 /* Join+Newsletter+button.png in Resources */,
+				A30A56911D4F4D1B002BBF01 /* Qwiches_logo.jpg in Resources */,
+				A30A56AA1D4F63BC002BBF01 /* order_online_button.jpg in Resources */,
+				A30A567E1D4EFEE8002BBF01 /* 1.jpg in Resources */,
+				A30A56921D4F4D1B002BBF01 /* qwiches_main.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +465,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C902841D4E51A300BA5032 /* LoginViewController.m in Sources */,
+				69E16B011D4F25D800249104 /* LocationManager.swift in Sources */,
+				41C902A21D4E6F6C00BA5032 /* SearchViewController.swift in Sources */,
+				A30A56961D4F5064002BBF01 /* ViewControllerMain.swift in Sources */,
+				69E16B051D4F281400249104 /* SecondViewController.swift in Sources */,
+				A30A56761D4ECC1B002BBF01 /* ViewController3.swift in Sources */,
+				69E16B031D4F280700249104 /* MapManager.swift in Sources */,
+				41C9028A1D4E521E00BA5032 /* Facilities.m in Sources */,
 				52B3F4E11D417107005658DB /* ViewController.swift in Sources */,
+				F9AF50B81D4B150900164562 /* DetailViewController2.swift in Sources */,
 				52B3F4DF1D417107005658DB /* AppDelegate.swift in Sources */,
+				F9AF50AC1D4B099A00164562 /* ListViewController2.swift in Sources */,
+				F9AF50A81D4B055200164562 /* ListViewController.swift in Sources */,
+				41C902871D4E51AE00BA5032 /* RegistrationViewController.m in Sources */,
+				41C902A51D4E6F9400BA5032 /* SwiftPhotoGallery.swift in Sources */,
+				41C902A61D4E6F9400BA5032 /* SwiftPhotoGalleryCell.swift in Sources */,
+				526B0C491D4AB51A006C7469 /* MenuViewController.swift in Sources */,
+				F58C4F191D4E95D100F73A56 /* PAYMENTSViewController.swift in Sources */,
+				F9AF50B01D4B0D8A00164562 /* DetailViewController.swift in Sources */,
+				F58C4F171D4E955300F73A56 /* DETAILSViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,10 +626,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = project1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vtech.project1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "project1/project1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -413,10 +643,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = project1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vtech.project1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "project1/project1-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -485,6 +720,7 @@
 				52B3F5051D417107005658DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52B3F5061D417107005658DB /* Build configuration list for PBXNativeTarget "project1Tests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +729,7 @@
 				52B3F5081D417107005658DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52B3F5091D417107005658DB /* Build configuration list for PBXNativeTarget "project1UITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +738,7 @@
 				52B3F50B1D417107005658DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

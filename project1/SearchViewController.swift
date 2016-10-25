@@ -7,10 +7,12 @@
 //
 
 import UIKit
-import SwiftPhotoGallery
+
 
 class SearchViewController: UIViewController , SwiftPhotoGalleryDelegate , SwiftPhotoGalleryDataSource {
 
+     let imageNames = ["image1.jpeg", "image2.jpeg", "image3.jpeg"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -44,4 +46,36 @@ class SearchViewController: UIViewController , SwiftPhotoGalleryDelegate , Swift
     }
     */
 
+    @IBAction func photoGalleryAction(sender: AnyObject) {
+        
+        let gallery = SwiftPhotoGallery(delegate: self, dataSource: self)
+        
+        gallery.backgroundColor = UIColor.blackColor()
+        gallery.pageIndicatorTintColor = UIColor.grayColor().colorWithAlphaComponent(0.5)
+        gallery.currentPageIndicatorTintColor = UIColor.whiteColor()
+        
+        //presentViewController(gallery, animated: true, completion: nil)
+        
+        presentViewController(gallery, animated: false, completion: { () -> Void in
+            gallery.currentPage = 2
+        })
+        
+    }
+    
+    // MARK: SwiftPhotoGalleryDataSource Methods
+    
+    func numberOfImagesInGallery(gallery: SwiftPhotoGallery) -> Int {
+        return imageNames.count
+    }
+    
+    func imageInGallery(gallery: SwiftPhotoGallery, forIndex: Int) -> UIImage? {
+        
+        return UIImage(named: imageNames[forIndex])
+    }
+    
+    // MARK: SwiftPhotoGalleryDelegate Methods
+    
+    func galleryDidTapToClose(gallery: SwiftPhotoGallery) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
 }

@@ -10,26 +10,33 @@ import UIKit
 
 class DETAILSViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    @IBAction func PAY(sender: AnyObject) {
+        var alert: UIAlertView = UIAlertView(title: "Loading", message: "Please wait...", delegate: nil, cancelButtonTitle: "Cancel");
+        
+        var loadingIndicator: UIActivityIndicatorView = UIActivityIndicatorView(frame: CGRectMake(50, 10, 37, 37)) as UIActivityIndicatorView
+        loadingIndicator.center = self.view.center;
+        loadingIndicator.hidesWhenStopped = true
+        loadingIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.Gray
+        loadingIndicator.startAnimating();
+        
+        alert.setValue(loadingIndicator, forKey: "accessoryView")
+        loadingIndicator.startAnimating()
+        
+        alert.show()
+        // Delay the dismissal by 5 seconds
+        let delay = 10.0 * Double(NSEC_PER_SEC)
+        var time = dispatch_time(DISPATCH_TIME_NOW, Int64(delay))
+        dispatch_after(time, dispatch_get_main_queue(), {
+            alert.dismissWithClickedButtonIndex(-1, animated: true)
+        })
+        var alert1 = UIAlertView()
+        alert.title="THANK YOU!"
+        alert.message="PAYMENT IS BEING ACCEPTED."
+        alert.addButtonWithTitle("OK")
+        alert.show()
+        
+        
+        
+    }}
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-}

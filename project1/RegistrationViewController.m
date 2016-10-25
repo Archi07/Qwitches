@@ -62,7 +62,9 @@
                 UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Congratulations!" message:@"You have registered successfully." delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
                 [alert show];
                 
-                [self.navigationController popViewControllerAnimated:YES];
+                UIViewController * loginPage = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"tabBar"] ;
+                [self.navigationController pushViewController:loginPage animated:YES] ;
+                
             }
         }
         else

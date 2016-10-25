@@ -6,18 +6,18 @@
 //  Copyright © 2016 Mobio Solutions. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LoginViewController.h"
 #import "Facilities.h"
 #import "RegistrationViewController.h"
-#import "HomeViewController.h"
 
-@interface ViewController ()
+
+@interface LoginViewController ()
 {
     Facilities *dbFacility;
 }
 @end
 
-@implementation ViewController
+@implementation LoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -46,9 +46,11 @@
        // {
             UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"" message:@"Login successful!" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
             [alert show];
-            
-            HomeViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"HomeViewController"];
-            [self.navigationController pushViewController:controller animated:YES];
+        
+        UIViewController * loginPage = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"tabBar"] ;
+        [self.navigationController pushViewController:loginPage animated:YES] ;
+        
+        
        // }
     }
 }
